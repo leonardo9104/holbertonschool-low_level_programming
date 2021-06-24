@@ -11,7 +11,8 @@ int main(void)
 	int z;
 	int w;
 	int n;
-	
+
+
 	x = sizeof(char);
 	y = sizeof(int);
 	z = sizeof(long int);
