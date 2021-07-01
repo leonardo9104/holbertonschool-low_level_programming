@@ -8,12 +8,11 @@
 int main(void)
 {
 	char n[9] = "Holberton";
-	int j = 0;
+	int i;
 
-	while (j <= 9)
+	for (i = 0; i < 9; i++)
 	{
-		_putchar(n[j]);
-		j++;
+		_putchar(n[i]);
 	}
 	_putchar('\n');
 	return (0);
