@@ -10,7 +10,7 @@ int main(void)
 	char n[10] = "Holberton";
 	int j = 0;
 
-	while (j <= 9)
+	while (j < 10)
 	{
 		_putchar(n[j]);
 		j++;
